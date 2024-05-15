@@ -1,0 +1,43 @@
+body{
+    color:rgb(0, 0, 0);
+    background-color:rgb(230, 247, 175);
+    font-size: 30px;
+    text-align: center;
+    background-image: url('../Images/R.jpg'); /* Establecer la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
+    -moz-background-size: cover; /* Para versiones antiguas de Firefox */
+    -o-background-size: cover; /* Para versiones antiguas de Opera */
+}
+
+#div1{
+    margin-bottom: 20px;
+    color: #ffff;
+    font-size: larger;
+}
+
+#fieldEntrada{
+    width:600px;
+    height:615px;
+    border-radius:20px;
+    border-color: rgb(0, 0, 0);
+    background: #71c55b;
+    color:#000000;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#fieldSalida{
+    width:600px;
+    height:530px;
+    border-radius:20px;
+    border-color: rgb(0, 0, 0);
+    background:#71c55b;
+    color:#000000;
+    margin: auto;
+}
+
+main fieldset legend {
+    color: #ffff;
+}
